@@ -29,6 +29,9 @@ en:
   current_plan_button:
     upgrade: Upgrade
     buy_now: Buy now
+    is_old_plan: Loomio's simplified pricing plans include unlimited users
+    change_plan: Change plan
+    view_plans: View plans
     free_trial: Free trial. {{days}} days remaining.
     trial_expired: Your trial has expired. Upgrade to continue using Loomio.
     tooltip: "Our prices are fantastic! Upgrade today and enjoy what Loomio can offer your group."
@@ -1223,8 +1226,8 @@ en:
     membership:
       title: Remove member
       message: Are you sure you want to remove {{name}}?
-      impact_for_group: This will remove their access to all threads and decisions in the group.
-      impact_for_subgroups: This will also remove their access to all subgroups of this group.
+      impact_for_subgroup: This will remove their access to the subgroup (including threads and polls), but they will remain a member of the parent group.
+      impact_for_group: This will remove their access to the group (including threads and polls) and any subgroups.
       flash: Member removed
       submit: Remove member
 
@@ -2211,6 +2214,7 @@ en:
       markdown: Markdown (for Mattermost, Zapier and others)
       microsoft: Microsoft Teams
       slack: Slack
+      discord: Discord
     subtitle: Connect to Loomio to the rest of your tools with our integration API and webhooks
     we_have_guides: |
       See our <a href="{{url}}" target="_blank">webhook setup guides</a> for help connecting your service.
